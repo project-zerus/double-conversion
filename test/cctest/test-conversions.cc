@@ -3,9 +3,9 @@
 #include <string.h>
 
 #include "cctest.h"
-#include "double-conversion.h"
-#include "ieee.h"
-#include "utils.h"
+#include "double-conversion/src/double-conversion.h"
+#include "double-conversion/src/ieee.h"
+#include "double-conversion/src/utils.h"
 
 // DoubleToString is already tested in test-dtoa.cc.
 

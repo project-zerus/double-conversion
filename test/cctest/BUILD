@@ -1,0 +1,21 @@
+cc_test(
+  name = 'cctest',
+  warning = 'no',
+  srcs = [
+    'cctest.cc',
+    'gay-fixed.cc',
+    'gay-precision.cc',
+    'gay-shortest.cc',
+    'gay-shortest-single.cc',
+    'test-bignum.cc',
+    'test-bignum-dtoa.cc',
+    'test-conversions.cc',
+    'test-diy-fp.cc',
+    'test-dtoa.cc',
+    'test-fast-dtoa.cc',
+    'test-fixed-dtoa.cc',
+    'test-ieee.cc',
+    'test-strtod.cc',
+  ],
+  deps = '//double-conversion/:double-conversion',
+)

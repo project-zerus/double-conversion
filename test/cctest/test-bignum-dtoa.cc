@@ -27,15 +27,15 @@
 
 #include <stdlib.h>
 
-#include "bignum-dtoa.h"
+#include "double-conversion/src/bignum-dtoa.h"
 
 #include "cctest.h"
 #include "gay-fixed.h"
 #include "gay-precision.h"
 #include "gay-shortest.h"
 #include "gay-shortest-single.h"
-#include "ieee.h"
-#include "utils.h"
+#include "double-conversion/src/ieee.h"
+#include "double-conversion/src/utils.h"
 
 using namespace double_conversion;
 

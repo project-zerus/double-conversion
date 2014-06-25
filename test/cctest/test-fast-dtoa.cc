@@ -3,13 +3,13 @@
 #include <stdlib.h>
 
 #include "cctest.h"
-#include "diy-fp.h"
-#include "fast-dtoa.h"
+#include "double-conversion/src/diy-fp.h"
+#include "double-conversion/src/fast-dtoa.h"
 #include "gay-precision.h"
 #include "gay-shortest.h"
 #include "gay-shortest-single.h"
-#include "ieee.h"
-#include "utils.h"
+#include "double-conversion/src/ieee.h"
+#include "double-conversion/src/utils.h"
 
 using namespace double_conversion;
 
